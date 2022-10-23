@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- note you will see header class in all the section that is because header is flex and is used all over the page. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/fav_icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Lokesh Kumar Karn</title>
+</head>
+
+<body>
+    <!-- navigation menu -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="header">
+                <a href="./index.html">
+                    <div class="logo">
+                        <img src="./images/fav_icon-2.o.jpg" alt="company logo">
+                    </div>
+                </a>
+                <div class="main-menu">
+                    <ul class="nav-items">
+                        <li class="nav-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                        <a href="#">Projects</a>
+                    </li> -->
+                        <li class="nav-item dropdown">
+                            <a href="#">About Us</a>
+                            <ul class="dropdown-items">
+                                <li><a href="./introduction.html">introduction</a> </li>
+                                <li><a href="./team.html">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#">Projects</a>
+                            <ul class="dropdown-items">
+                                <li><a href="./ongoing_project.html"> On-Going Projecs</a></li>
+                                <li><a href="#"> Completed Projects</a></li>
+                                <li><a href="#"> Up-Coming Projects</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrum -->
+    <section class="breadcrum">
+        <div class="container">
+            <div class="breadcrum-content">
+                <p><a href="./index.html">Home</a><span>/</span><a href="./contact.html">Contact Us</a></p>
+                <h1 class="lg-heading">Get In Touch</h1>
+            </div>
+        </div>
+    </section>
+    <main class="contact-page">
+        <section class="contact-page-top">
+            <div class="container">
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-phone fa-5x"></i>
+                        <h1 class="md-heading">Call Us</h1>
+                        <p>+977 9848980000</p>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope fa-5x"></i>
+                        <h1 class="md-heading">Email Us</h1>
+                        <p>info@luckygamil.com.np</p>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-location-dot fa-5x"></i>
+                        <h1 class="md-heading">Address </h1>
+                        <p>NEC, Duwakot</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- company location google map -->
+        <section class="company-location">
+            <div class="container">
+                <div class="our-location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d56513.38375600461!2d85.35620336867076!3d27.71461589381584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d27.7186305!2d85.3652949!4m5!1s0x39eb1b1fed5126c5%3A0x66a89bde8e23a65e!2sNepal%20Engineering%20College%2C%20Bhaktapur%20Road%2C%20Changunarayan%2044801!3m2!1d27.7109329!2d85.4156106!5e0!3m2!1sen!2snp!4v1658554629246!5m2!1sen!2snp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section starts here -->
+        <!-- <section class="contact-us-form"> -->
+        <div class="container">
+            <form class="contact-form">
+                <div class="form-content">
+                    <div class="contact-form-header">
+                        <h1 class="lg-heading">Drop Us a Line</h1>
+                        <p>Your personal details will be kept private</p>
+                    </div>
+                    <div class="form-group name">
+                        <input type="text" name="" id="" placeholder="First Name" class="fname" required>
+                        <input type="text" name="" id="" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="" id="" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="" id="" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-btn"> <button type="submit">Submit</button></div>
+                </div>
+
+            </form>
+        </div>
+        <!-- </section> -->
+    </main>
+    <!-- footer -->
+    <footer class="main-footer">
+
+        <!-- main footer will containe footer 1,2,3 and 4 while next will be copyright -->
+        <div class="container">
+            <div class="footer">
+                <div class="footer1">
+                    <h1 class="md-heading">Lokesh Kumar Karn</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sequi libero architecto deleniti ex unde dolor suscipit totam quisquam! Dolorem.</p>
+                    <div class="socials">
+                        <h1 class="md-heading">Follow Us</h1>
+                        <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="#"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <h1 class="md-heading">Projects</h1>
+                    <ul>
+                        <li><a href="./ongoing_project.html">On-Going projects</a></li>
+                        <li><a href="#">Up-Coming projects</a></li>
+                        <li><a href="#">Completed projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer3">
+                    <h1 class="md-heading">Quick Links</h1>
+                    <ul>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./introduction.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>copyright &copy; 2022 Lokesh Kumar Karn. All Right Reserved</p>
+        <p>Developed by: Arjun Jhukal</p>
+    </div>
+</body>
+
+</html>
